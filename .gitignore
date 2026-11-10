@@ -8,9 +8,18 @@ __pycache__/
 
 # Environment variables and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
 
-# Vector database
+# Vector database and embeddings
 chroma_db/
+
+# Runtime logs and employee tickets
+tickets.jsonl
+assistant.log
+*.log
 
 # IDE files
 .vscode/
